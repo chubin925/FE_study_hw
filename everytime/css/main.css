@@ -275,9 +275,12 @@ h4 {
 span {
   color: #f91f15;
 }
-
-.art {
+.boxx {
   border: 0.5px solid rgba(0, 0, 0, 0.176);
+  border-bottom: none;
+}
+.art {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.176);
   width: stretch;
   padding: 14px 22px;
   line-height: 20px;
@@ -381,4 +384,89 @@ h4 {
   line-height: normal;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.img_ratingempty {
+  width: 60px;
+  height: 12px;
+  background-size: contain;
+  background-image: url("../img/rating.empty.png");
+  position: relative;
+  z-index: 0;
+}
+
+.img_ratingfill {
+  width: 60px;
+  height: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/rating.fill.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.img_ratingfill2 {
+  width: 25px;
+  height: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/rating.fill.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.found {
+  display: flex;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 8px 8px;
+  margin-top: 5px;
+  margin-left: 5px;
+  align-items: center;
+}
+.found > p {
+  color: #666;
+  font-size: 12px;
+}
+.nextbtn {
+  display: flex;
+  align-items: center;
+  color: #f91f15;
+  font-weight: 800;
+  width: 40px;
+  border: 1px solid #f91f15;
+  border-radius: 3px;
+  padding: 8px 7px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.img_found {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/search.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+}
+.nextbtn > p {
+  padding-right: 5px;
+}
+.arrow {
+  width: 12px;
+  height: 12px;
+  background-image: url("../img/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section_end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
