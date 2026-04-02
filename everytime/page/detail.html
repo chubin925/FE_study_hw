@@ -145,7 +145,7 @@
             <div class="status">
               <div class="status_red">
                 <div id="img_red"></div>
-                <span>153</span>
+                <span id="like-num">153</span>
               </div>
               <div class="status_blue">
                 <div id="img_blue"></div>
@@ -153,23 +153,23 @@
               </div>
               <div class="status_yellow">
                 <div id="img_yellow"></div>
-                <span>1</span>
+                <span id="scrap-num">1</span>
               </div>
             </div>
             <div class="button_gray">
-              <button class="like_gray" title="like_gray">
+              <button type="button" id="like_gray" title="like_gray">
                 <img
                   class="like_img"
                   src="../img/container.articles.buttons.posvote.png"
                 />
                 공감
               </button>
-              <button class="scrap_gray" title="scrap_gray">
+              <button type="button" class="scrap_gray" title="scrap_gray">
                 <img
                   class="scrap_img"
                   src="../img/container.articles.buttons.scrap.png"
                 />
-                스크랩
+                스크랩 <span id="cancel">취소</span>
               </button>
             </div>
           </div>
@@ -366,5 +366,6 @@
         </aside>
       </div>
     </div>
+    <script src="../js/detail.js"></script>
   </body>
 </html>
