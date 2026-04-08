@@ -16,7 +16,6 @@ body {
 
 .everytime-body {
   display: flex;
-  height: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -88,8 +87,6 @@ body {
   text-decoration-line: underline;
 }
 
-
-
 .login-id,
 .login-pw {
   font-weight: 400;
@@ -98,6 +95,7 @@ body {
 .everytime-login {
   font-weight: 800;
   color: #636363;
+  background-color: #b5b5b5;
 }
 
 .idpw-find {
