@@ -224,6 +224,7 @@ h4 {
 .k_blue {
   display: flex;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .k_blue p {
   margin: 0 5px;
