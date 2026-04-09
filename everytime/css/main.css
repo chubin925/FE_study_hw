@@ -652,4 +652,8 @@ body {
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+
+  .container {
+    margin: 5px;
+  }
 }
